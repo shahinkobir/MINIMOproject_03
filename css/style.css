@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: unset;
+    color: black;
+}
+a.hover{
+}
+.container{
+    width: 1142px;
+    margin: auto;
+    padding: 30px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/***********************header*****************/
+header{}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+    display: block;
+}
+.logo a{
+    display: block;
+}
+.logo a img{}
+nav{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    display: block;
+    padding-left: 35px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+nav ul li a.hover{}
+.banner{}
+.banner img{
+    width: 100%;
+}
+.blog-section{}
+article{
+}
+article h1{
+    text-transform: capitalize;
+    color: #928989e3;
+    margin-bottom: 12px;
+}
+article p{
+    margin-bottom: 26px;
+    font-size: 18px;
+    line-height: 1.3;
+} 
+article span{
+    text-transform: uppercase;
+}
+article a img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.post{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 17px;
+}
+footer{
+    background-color: #ecdde2c7;
+}
+.footer-menu{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.footer-menu ul{}
+.footer-menu ul li{}
+.footer-menu ul li a{
+    padding-right: 16px;
+}
+.footer-menu ul li a.hover{}
+.social-menu{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.social-menu ul{
+    justify-content: flex-end;
+}
+.social-menu span{}
+.social-menu ul li{}
+.social-menu ul li{}
+.social-menu ul li a{
+    display: block;
+    padding-left: 44px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: blue;
+}
+.social-menu ul li a.hover{
+    color:red;
+
+}
